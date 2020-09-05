@@ -28,7 +28,7 @@ print(plan)
 #x为用于生产甲商品的A配件的库存数量，x1为生产一个甲产品所需要的配件数量
 #y为用于生产乙商品的B配件的库存数量，y1为生产一个乙产品所需要的配件数量
 #h为生产一件甲产品的耗时，h1为生产一件乙产品的耗时
-#time为一天工作的时常
+#time为一天工作的时长
 def production_plan(x,x1,y,y1,h,h1,time):
     plan=[]
     for i in range(int(x/x1)):
