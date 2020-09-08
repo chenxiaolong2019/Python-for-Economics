@@ -26,7 +26,7 @@ Name: tip, dtype: float64
 
 
 According to output data,taking "time" as the grouping basis, 
-the average tip given by the "Dinner" group is the most than "Lunch".
+the average tip given by the "Dinner" group is the most.
 
 '''
 
@@ -51,6 +51,6 @@ Lunch   1       1.875000
 Name: tip, dtype: float64
 
 According to output data, taking "time" and "size" as the grouping basis, 
-the average tip given by the "Lunch" group, size 1 is the most.
+the average tip given by the "Lunch" group, size 6 is the most.
 
 '''
