@@ -17,6 +17,8 @@ dta_smokers_1 = dta_smokers['tip'].groupby(dta_smokers['time']).apply(average)
 print(dta_smokers_1)
 
 '''
+Result：
+
 time
 Dinner    3.102670
 Lunch     2.728088
@@ -31,6 +33,8 @@ the average tip given by the "Dinner" group is the most than "Lunch".
 dta_smokers_2 = dta_smokers['tip'].groupby([dta_smokers['time'],dta_smokers['size']]).apply(average)
 print(dta_smokers_2)
 '''
+Result
+
 time    size
 Dinner  1       1.000000
         2       2.661923
